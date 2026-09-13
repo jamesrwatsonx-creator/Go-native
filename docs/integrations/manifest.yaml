@@ -1,0 +1,64 @@
+version: 1
+policy: "No upstream source is vendored without written approval, license review, and maintenance ownership."
+integrations:
+  - name: crawl4ai
+    stage: core-research
+    decision: integrate
+    owner: services/crawler
+    boundary: ResearchProvider
+  - name: firecrawl
+    stage: core-research
+    decision: integrate
+    owner: services/crawler
+    boundary: ResearchProvider
+  - name: markitdown
+    stage: core-documents
+    decision: integrate
+    owner: services/document-intelligence
+    boundary: DocumentConverter
+  - name: langgraph
+    stage: core-agent
+    decision: integrate
+    owner: services/agent
+    boundary: WorkflowEngine
+  - name: mem0
+    stage: secondary
+    decision: adapt-or-integrate
+    owner: services/agent
+    boundary: MemoryStore
+  - name: openfga
+    stage: core-trust
+    decision: integrate
+    owner: infrastructure/openfga
+    boundary: AuthorizationService
+  - name: openbao
+    stage: core-trust
+    decision: integrate
+    owner: infrastructure/openbao
+    boundary: SecretProvider
+  - name: modelcontextprotocol
+    stage: core-agent
+    decision: integrate
+    owner: packages/agent-tools
+    boundary: ToolProtocol
+  - name: promptfoo
+    stage: core-quality
+    decision: integrate
+    owner: tests
+    boundary: AgentEvaluation
+  - name: appium
+    stage: core-quality
+    decision: integrate
+    owner: tests/e2e
+    boundary: MobileE2E
+  - name: lottie-react-native
+    stage: core-mobile-experience
+    decision: integrate-if-react-native-client
+    owner: apps/android
+    boundary: MotionAssetRenderer
+    notes: "Use the published package; do not vendor the fork. For Compose, substitute the native renderer."
+  - name: Common
+    stage: excluded
+    decision: do-not-integrate
+    owner: architecture
+    notes: "Deprecated containers/common fork; unrelated to the Go Native product stack."

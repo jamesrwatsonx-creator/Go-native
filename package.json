@@ -1,0 +1,13 @@
+{
+  "name": "go-native",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Mobile-first Indigenous opportunity network",
+  "packageManager": "pnpm@10.0.0",
+  "scripts": {
+    "check": "pnpm -r run check",
+    "test": "pnpm -r run test",
+    "format": "prettier --check ."
+  },
+  "devDependencies": {"prettier": "^3.5.0", "typescript": "^5.7.0"}
+}
