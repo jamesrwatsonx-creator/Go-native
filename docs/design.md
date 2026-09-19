@@ -1,30 +1,107 @@
 # Design system
 
-## Character
+## Current product direction
 
-Warm, confident, contemporary, and rooted—not stereotyped, ceremonial by default, bureaucratic, or cyberpunk. The interface should make consequential work feel calm and possible.
+Go Native is **light-first, mobile-first, calm, and premium**.
 
-## Tokens
+The current approved Login and Home screens are source-of-truth visuals. Functional work should wire existing components rather than regenerate those screens.
 
-| Token | Value | Use |
-| --- | --- | --- |
-| `ink-burgundy` | `#3B1020` | hero surfaces, focus moments |
-| `forest` | `#173F32` | trusted progress, map/context |
-| `earth-brown` | `#5A3828` | grounding surface |
-| `rust` | `#B64A28` | action accent |
-| `ochre` | `#C98B20` | highlights and status |
-| `sun-yellow` | `#F3C64E` | sparing optimistic emphasis |
-| `sand` | `#E8D9C0` | dark-mode text/soft panels |
-| `clarity` | `#FAF7F1` | light forms/help mode |
+## Surface rules
 
-Use layered burgundy→rust and forest→ochre gradients only to signal hierarchy or momentum. Preserve WCAG contrast; never convey status with color alone.
+Default page surface:
 
-## Type and components
+- white or warm white
 
-Use a strong contemporary grotesk for headings (for example, **Manrope** or **Sora**) and a highly legible text face (for example, **Inter**). Type scale: 12, 14, 16, 20, 24, 32, 40. Build tokens for color, spacing, radius, shadow, typography, and semantic states in `packages/design-tokens`.
+Brand accents:
 
-Key components: opportunity card with provenance, Path milestone, verification badge, workspace switcher, location permission explainer, approval sheet, document tile, source citation, inbox insight, map marker cluster, and a restrained AI orb.
+- forest green
+- deep teal
+- warm orange
+- copper
+- cream / sand
+- muted gray
 
-## Modes
+Black / charcoal is appropriate for:
 
-Dark Autumn is the primary discovery and relationship mode. Light Clarity is used for help, intake, long forms, and document review. User preference always wins.
+- text
+- icons
+- selected chips
+- small high-contrast controls
+
+Black / dark surfaces are not appropriate for:
+
+- full page backgrounds
+- large parent containers
+- form wrappers
+- dashboard backgrounds
+- navigation backgrounds
+
+## Global navigation
+
+### Header
+
+Authenticated screens use a white header approximately 56–64 px plus safe area:
+
+- hamburger menu left
+- subtle Go Native wordmark or page context center
+- notification indicator when useful
+- profile avatar right
+- subtle divider/shadow
+
+### Bottom navigation
+
+White floating/sticky dock with soft shadow:
+
+Personal: Home · Search · Saved · Alerts · Profile
+
+Organization context may adapt to: Dashboard · Opportunities · Messages · Alerts · Profile
+
+Active state: forest green.
+Inactive: muted gray/charcoal.
+
+## Components
+
+Use:
+
+- large touch targets
+- rounded cards
+- rounded chips
+- soft shadows
+- light tinted category cards
+- readable typography
+- progressive disclosure
+- clear source/provenance treatment
+
+Key product components include:
+
+- opportunity card
+- benefit card
+- status checklist
+- verification badge
+- workspace switcher
+- source citation
+- application tracker
+- deadline indicator
+- notification item
+- assistant panel
+- organization profile card
+
+## Motion
+
+Target 150–350 ms for most interactions:
+
+- fade + slight slide entrances
+- chip selection
+- button press
+- save/bookmark confirmation
+- drawer slide
+- bottom-nav active transition
+- smooth expand/collapse
+- workspace context transition
+- skeleton/shimmer loading
+
+Avoid constant motion, large bounce, or excessive glow. Respect reduced-motion preferences.
+
+## Accessibility
+
+Meet WCAG contrast, support dynamic text, large touch targets, keyboard/focus navigation where applicable, reduced motion, and accessible alternatives to maps/visual-only status.

@@ -1,16 +1,29 @@
 # Roadmap
 
 ## 0 — Foundation
-Repository contracts, design system, privacy/security guardrails, source registry, authorization model, and test strategy.
+
+Repository contracts, light design system, privacy/security guardrails, source registry, account/profile/workspace model, authorization, provenance, and test strategy.
 
 ## 1 — Personal discovery
-Personal onboarding, My Path, opportunity search/save, source explanations, location preferences, maps, documents, and approval-gated drafting.
 
-## 2 — Trusted organizations
-Organization verification, publisher workspace, opportunity management, applications, messaging, and notifications.
+Individual onboarding, personalized Home, natural-language search, categories, opportunity detail, Save, application tracker, deadline reminders, notifications, Assistant, source explanations, and location preferences.
 
-## 3 — Connected workflows
-Email intelligence, case management, education/funder workflows, procurement, and service referrals.
+## 2 — Benefits & Rights + Status Navigator
 
-## 4 — Network scale
-Android app, governed community layer, advanced research agents, interoperable integrations, outcome reporting, and formal security review.
+Federal/provincial/territorial benefit registry, status-card navigation, official forms/links, NIHB and tax guidance, justice-resource routing, benefit matching labels, freshness/review workflow, and personal benefit cases/checklists.
+
+## 3 — Trusted organizations
+
+Organization onboarding, organization profiles, verification, team roles, provider dashboard, opportunity publishing, drafts/review, applications, messaging, and provider notifications.
+
+## 4 — Two-sided matching
+
+Opt-in discoverability, candidate/user matching, provider invitations, interview/program outreach, comparison, outcome feedback, and aggregate analytics.
+
+## 5 — Connected workflows
+
+Email intelligence, document intelligence, case management, education/funder workflows, procurement, referrals, calendar/deadline integrations, and assisted application preparation.
+
+## 6 — Network scale
+
+Android-first native experience, governed community layer, broader Canada-wide source coverage, advanced research agents, interoperability, outcome reporting, and formal security/privacy/Indigenous-data-governance review.

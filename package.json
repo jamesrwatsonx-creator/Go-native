@@ -1,8 +1,8 @@
 {
   "name": "go-native",
   "private": true,
-  "version": "0.1.0",
-  "description": "Mobile-first Indigenous opportunity network",
+  "version": "0.2.0",
+  "description": "Mobile-first Indigenous opportunity, benefits, rights, and action network for Canada",
   "packageManager": "pnpm@10.0.0",
   "scripts": {
     "check": "pnpm -r run check",
