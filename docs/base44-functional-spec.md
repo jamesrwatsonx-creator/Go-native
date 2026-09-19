@@ -65,6 +65,23 @@ Forest green active state; muted gray inactive state; safe-area aware; never hid
 
 Support natural language plus filters. Interpret location, category, industry, education/career goal, business stage, eligibility, funding type, and deadline.
 
+### Universal visibility rule
+
+Personalization may rank and recommend, but it must never function as an access-control layer.
+
+Every published opportunity must remain reachable through Search, Browse All, category pages, organization pages, or direct links regardless of the user's career, interests, location preferences, browsing history, saved items, or onboarding choices.
+
+Requirements:
+
+- explicit searches return relevant published results even when they fall outside the profile
+- Browse All is not silently personalized
+- profile interests may reorder results but never remove them
+- visible user-selected filters can narrow results; hidden profile filters cannot
+- clearing filters restores the complete published catalog
+- direct links remain accessible regardless of profile
+- likely eligibility mismatch may be labeled, not hidden
+- recommendation/eligibility scores are annotations, not permissions
+
 Match labels:
 
 - Strong Match

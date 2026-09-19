@@ -21,6 +21,8 @@ Go Native should turn fragmented government pages, school sites, program PDFs, o
 
 Natural-language search and personalized matching across grants, scholarships, training, jobs, apprenticeships, loans, funding, mentorship, accelerators, procurement, and community programs.
 
+**Personalization ranks; it does not gate.** Every published opportunity remains discoverable through neutral Search/Browse/category/direct-link paths regardless of the user's profile, career, interests, history, or recommendation score. A profile may change ordering, explanations, and alerts, but never whether the user is allowed to see the opportunity.
+
 ### 2. Benefits & Rights
 
 A source-backed navigator for tax treatment, health coverage, education support, justice resources, harvesting/treaty rights, and other federal/provincial/territorial/Nation-specific programs.
@@ -47,7 +49,8 @@ A human account may have a Personal Profile and one or more Organization Workspa
 4. **Provenance is product quality.** Every consequential claim should expose source, date, jurisdiction, and review state.
 5. **AI is a co-pilot.** It can search, explain, summarize, compare, draft, and prepare; consequential external actions require approval.
 6. **Personalization changes content, not identity.** Recommendations adapt to goals and context without making identity inferences.
-7. **Mobile-first clarity.** A user should be able to understand a complex program on a phone in plain language.
+7. **Universal opportunity visibility.** Recommendation systems can prioritize opportunities but cannot make published opportunities inaccessible or invisible because of a user's profile.
+8. **Mobile-first clarity.** A user should be able to understand a complex program on a phone in plain language.
 
 ## Success
 

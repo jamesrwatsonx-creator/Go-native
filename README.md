@@ -37,6 +37,8 @@ The opportunity network includes:
 - community programs
 - procurement and supplier opportunities
 
+**Universal discovery rule:** personalization changes ranking and recommendations, never catalog access. A user's career, interests, location preferences, or prior behavior must not make a published grant, scholarship, job, training program, loan, or other opportunity invisible. Users can always use Search, Browse All, category pages, organization pages, or direct links to reach the complete published catalog. See [Opportunity visibility policy](docs/opportunity-visibility.md).
+
 ### Benefits & Rights Navigator
 
 Go Native includes a **Benefits & Rights** layer that helps users understand programs, tax treatment, health coverage, education support, harvesting/treaty rights, justice resources, and other benefits that may apply based on the user's chosen context.
@@ -193,6 +195,8 @@ tests/             contract, end-to-end, and security suites
 - [Benefits & Rights](docs/benefits-rights.md)
 - [Status Navigator](docs/status-navigation.md)
 - [Base44 functional build specification](docs/base44-functional-spec.md)
+- [Opportunity visibility policy](docs/opportunity-visibility.md)
+- [Repository contribution map](docs/repository-contribution-map.md)
 - [AI behavior](docs/ai-behavior.md)
 - [Privacy model](docs/privacy-model.md)
 - [Source trust policy](docs/source-trust-policy.md)
