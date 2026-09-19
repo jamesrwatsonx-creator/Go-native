@@ -1,3 +1,42 @@
 # Case management
 
-Cases organize multi-step support journeys such as an application, funding process, service referral, or research checklist. A case has an owner, consented collaborators, tasks, notes, documents, timeline, status, and audit trail. Case workers see only cases explicitly assigned to their authorized workspace. AI can summarize and draft a next step; it cannot close a case or communicate externally without approval.
+Cases organize multi-step user journeys that should not be reduced to a single button.
+
+Examples:
+
+- grant/scholarship application
+- employment application
+- training enrollment
+- benefit application
+- Status Navigator workflow
+- legal/service referral
+- document checklist
+- provider-managed applicant workflow
+
+A case can contain:
+
+- owner
+- permitted collaborators
+- related opportunity/benefit/organization
+- tasks
+- notes
+- documents
+- dates/deadlines
+- next action
+- reminders
+- timeline
+- status
+- source links
+- audit history
+
+## Personal cases
+
+Personal cases belong to the individual context by default. Organization workspaces do not automatically see them.
+
+## Provider cases
+
+Provider-side applicant/candidate cases belong to the organization workspace and follow workspace role permissions.
+
+## AI
+
+AI may summarize a case, identify missing items, draft a next step, or prepare communication. It cannot silently close a case, submit externally, or disclose data to another workspace without the required user approval and authorization.
